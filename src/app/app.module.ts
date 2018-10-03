@@ -12,6 +12,7 @@ import { CsPage } from '../pages/cs/cs';
 import { DibujoPage } from '../pages/dibujo/dibujo';
 import { PaapsPage } from '../pages/paaps/paaps';
 import { MetodologiaPage } from '../pages/metodologia/metodologia';
+import { RobotoicaPage } from '../pages/robotoica/robotoica';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MetodologiaPage } from '../pages/metodologia/metodologia';
     CsPage,
     DibujoPage,
     PaapsPage,
-    MetodologiaPage
+    MetodologiaPage,
+    RobotoicaPage
   ],
   imports: [
     BrowserModule,
@@ -37,7 +39,8 @@ import { MetodologiaPage } from '../pages/metodologia/metodologia';
     CsPage,
     DibujoPage,
     PaapsPage,
-    MetodologiaPage
+    MetodologiaPage,
+    RobotoicaPage
   ],
   providers: [
     StatusBar,
