@@ -11,6 +11,7 @@ import { ComPage } from '../pages/com/com';
 import { CsPage } from '../pages/cs/cs';
 import { DibujoPage } from '../pages/dibujo/dibujo';
 import { PaapsPage } from '../pages/paaps/paaps';
+import { MetodologiaPage } from '../pages/metodologia/metodologia';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PaapsPage } from '../pages/paaps/paaps';
     ComPage,
     CsPage,
     DibujoPage,
-    PaapsPage
+    PaapsPage,
+    MetodologiaPage
   ],
   imports: [
     BrowserModule,
@@ -34,7 +36,8 @@ import { PaapsPage } from '../pages/paaps/paaps';
     ComPage,
     CsPage,
     DibujoPage,
-    PaapsPage
+    PaapsPage,
+    MetodologiaPage
   ],
   providers: [
     StatusBar,

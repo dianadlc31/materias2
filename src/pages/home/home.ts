@@ -5,6 +5,7 @@ import { ComPage } from '../com/com';
 import { CsPage } from '../cs/cs';
 import { DibujoPage } from '../dibujo/dibujo';
 import { PaapsPage } from '../paaps/paaps';
+import { MetodologiaPage } from '../metodologia/metodologia';
 
 @Component({
   selector: 'page-home',
@@ -16,6 +17,7 @@ export class HomePage {
   Cs=CsPage;
   Dibujo= DibujoPage;
   paaps=PaapsPage;
+  metodologia=MetodologiaPage;
   constructor(public navCtrl: NavController) {
 
   }
@@ -33,5 +35,8 @@ export class HomePage {
   }
   clickpaaps() {
     this.navCtrl.push(this.paaps);
+  }
+  clickmetodologia() {
+    this.navCtrl.push(this.metodologia);
   }
 }
